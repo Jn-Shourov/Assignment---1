@@ -41,6 +41,11 @@ main {
   border-radius: 8px;
   margin-top: 24px;
 }
+.banner > div > button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 106, 80, 0.75);
+  transition: 0.15s;
+}
 .banner > img {
   height: 400px;
   object-fit: contain;
@@ -92,6 +97,10 @@ main {
   border-radius: 8px;
   width: 122px;
 }
+.voff section > button {
+  cursor: pointer;
+  transition: 0.15s;
+}
 
 .card1 {
   background-color: rgba(84, 144, 245, 0.2);
@@ -99,17 +108,51 @@ main {
 .card1 > button {
   background-color: #5490f5;
 }
+.card1 > button:hover {
+  background-color: rgba(84, 144, 245, 0.75);
+}
 .card2 {
   background-color: #c6e4d6;
 }
 .card2 > button {
   background-color: #09a15c;
 }
+.card2 > button:hover {
+  background-color: rgba(0, 106, 80, 0.75);
+}
 .card3 {
   background-color: #f7ebcf;
 }
 .card3 > button {
   background-color: #ffc239;
+}
+.card3 > button:hover {
+  background-color: rgba(255, 194, 57, 0.75);
+}
+
+/* Dr. Mohammad Younus statement  Section */
+
+.proud {
+  background-color: #ffffff;
+  background-image: url('images/quote-bg.png');
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.proud > p {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.5;
+}
+.proud > h3 {
+  font-size: 20px;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+.proud > .last {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 4px;
+  line-height: 1.5;
 }
 
 /* Recent News section start */
@@ -177,6 +220,12 @@ main {
   border-radius: 8px;
   margin-top: 32px;
 }
+.news1 > div button:hover,
+.news2 > div button:hover {
+  cursor: pointer;
+  transition: 0.15s;
+  background-color: rgba(0, 106, 80, 0.75);
+}
 
 /* Donate Today Section */
 .donate {
@@ -230,4 +279,60 @@ main {
   border: none;
   border-radius: 8px;
   margin-top: 32px;
+}
+.donate > button:hover {
+  cursor: pointer;
+  transition: 0.15s;
+  background-color: rgba(0, 106, 80, 0.75);
+}
+
+/* Newsletter Section */
+
+.letter {
+  background-color: #c6e4d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 100px;
+  margin-top: 80px;
+}
+.letter > h2 {
+  font-size: 40px;
+}
+.letter > p {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 16px;
+}
+.letter > div {
+  margin-top: 24px;
+  display: flex;
+}
+.letter > div input {
+  width: 600px;
+  padding: 18px 40px;
+  margin-right: -5px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+.letter > div input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.letter > div button {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 17px 34px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 0 8px 8px 0;
+}
+.letter > div button:hover {
+  cursor: pointer;
+  transition: 0.15s;
+  background-color: rgba(0, 106, 80, 0.75);
+}
+.letter > .last {
+  margin-top: 24px;
 }
